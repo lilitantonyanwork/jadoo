@@ -1,6 +1,9 @@
 .testimonials{
   padding-top: 214px;
   padding-bottom: 160px;
+  .section__title{
+    max-width: 409px;
+  }
   &__left{
     position: relative;
     .swiper-pagination{
