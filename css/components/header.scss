@@ -50,7 +50,7 @@ header{
     padding-top: 18px;
     &__content{
       position: relative;
-      padding-left: 7px;
+      padding-left: 30px;
     }
     &__left{
       padding-top: 112px;
@@ -61,15 +61,15 @@ header{
     }
     &__right{
       position: absolute;
-      right: 0;
+      right: -10px;
       &:before{
         content: '';
         width: 167px;
         height: 157px;
         position: absolute;
         background: url('#{$img-path}/plane.svg');
-        top: 40px;
-        left: 134px;
+        top: 54px;
+        left: 133px;
       }
       &:after{
         content: '';
@@ -77,8 +77,8 @@ header{
         height: 157px;
         position: absolute;
         background: url('#{$img-path}/plane.svg');
-        top: 103px;
-        right: -20px;
+        top: 102px;
+        right: -18px;
         z-index: 0;
       }
       img{

@@ -251,7 +251,7 @@ header .banner {
 }
 header .banner__content {
   position: relative;
-  padding-left: 7px;
+  padding-left: 30px;
 }
 header .banner__left {
   padding-top: 112px;
@@ -262,7 +262,7 @@ header .banner__left {
 }
 header .banner__right {
   position: absolute;
-  right: 0;
+  right: -10px;
 }
 header .banner__right:before {
   content: "";
@@ -270,8 +270,8 @@ header .banner__right:before {
   height: 157px;
   position: absolute;
   background: url("../img/plane.svg");
-  top: 40px;
-  left: 134px;
+  top: 54px;
+  left: 133px;
 }
 header .banner__right:after {
   content: "";
@@ -279,8 +279,8 @@ header .banner__right:after {
   height: 157px;
   position: absolute;
   background: url("../img/plane.svg");
-  top: 103px;
-  right: -20px;
+  top: 102px;
+  right: -18px;
   z-index: 0;
 }
 header .banner__right img {
@@ -561,7 +561,20 @@ header .banner__actions {
 }
 
 .category {
-  padding-top: 97px;
+  margin-top: 104px;
+  position: relative;
+}
+.category:after {
+  content: "";
+  width: 153px;
+  height: 166px;
+  background: url("../img/plus1.svg") no-repeat;
+  position: absolute;
+  top: 0;
+  right: 58px;
+}
+.category .container {
+  margin-left: 96px;
 }
 .category__list {
   margin-top: 68px;
@@ -1116,7 +1129,7 @@ header .banner__actions {
     top: 80px;
   }
   .category {
-    padding-top: 50px;
+    margin-top: 50px;
   }
   .category__list {
     margin-top: 40px;

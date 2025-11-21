@@ -1,5 +1,21 @@
 .category{
-  padding-top: 97px;
+  margin-top: 104px;
+  position: relative;
+
+  &:after{
+    content: '';
+    width: 153px;
+    height: 166px;
+    background: url('#{$img-path}/plus1.svg') no-repeat;
+    position: absolute;
+    top: 0;
+    right: 58px;
+  }
+  .container{
+    margin-left: 96px;
+
+
+  }
   &__list{
     margin-top: 68px;
     gap: 35px;
