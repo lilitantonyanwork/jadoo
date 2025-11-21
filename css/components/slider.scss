@@ -1,0 +1,76 @@
+.swiper{
+  width: 100%;
+  height: 100%;
+  &-slide{
+    background: $white;
+    border-radius: 10px;
+    position: relative;
+    padding: 28px 68px 34px 34px;
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px rgba(0, 0, 0, 0), 0px 8.148148536682129px 6.518518447875977px rgba(0, 0, 0, 0.01), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px rgba(0, 0, 0, 0.02), 0px 100px 80px rgba(0, 0, 0, 0.02);
+    min-height: 245px;
+
+    max-width: 541px;
+    width: 100%;
+    height: 245px!important;
+    &-active{
+      //position: absolute;
+    }
+    &-next{
+
+      top: -170px;
+      left: 50px;
+      z-index: -1;
+      border: 2px solid #f7f7f7;
+      border-radius: 10px;
+      background: transparent;
+      box-shadow: 0px 1.8518518209457397px 3.1481480598449707px rgba(0, 0, 0, 0), 0px 8.148148536682129px 6.518518447875977px rgba(0, 0, 0, 0.01), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px rgba(0, 0, 0, 0.02), 0px 100px 80px rgba(0, 0, 0, 0.02);
+      max-height: 232px;
+      min-height: 232px;
+      padding-bottom: 22px;
+    }
+    &-prev{
+      opacity: 0;
+    }
+  }
+  &-vertical &-button-prev{
+    left: auto;
+    right: 0;
+    top: calc(100%/2 - 28px);
+    width: 16px;
+    height: 10px;
+    background: url('#{$img-path}/slider.svg') no-repeat;
+    transform: rotate(180deg);
+    svg{
+      display: none;
+    }
+  }
+  &-vertical &-button-next{
+    left: auto;
+    right: 0;
+    width: 16px;
+    height: 10px;
+    bottom: calc(100%/2 - 28px);
+    background: url('#{$img-path}/slider.svg') no-repeat;
+    svg{
+      display: none;
+    }
+  }
+
+  &-pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 82px;
+    gap: 25px;
+    &-bullet{
+      width: 12px;
+      height: 12px;
+      background: $platinum;
+      opacity: 1;
+      &-active{
+        background: $charcoal;
+      }
+    }
+  }
+}

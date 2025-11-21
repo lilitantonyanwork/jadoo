@@ -1,0 +1,53 @@
+.testimonials{
+  padding-top: 214px;
+  padding-bottom: 160px;
+  &__left{
+    position: relative;
+    .swiper-pagination{
+      left: 0;
+    }
+  }
+  &__right{
+    height: 356px;
+  }
+  &__slider{
+    height: 100%;
+    padding-top: 34px;
+    padding-left: 38px;
+    padding-right: 80px;
+    padding-bottom: 77px;
+  }
+}
+.testimonial{
+  &__img{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    border-radius: 100%;
+    left: -37px;
+    top: -34px;
+  }
+  &__text{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    @include font-size(16);
+    line-height: 32px;
+    color: $de-blue;
+    margin-bottom: 34px;
+  }
+  &__author &__name{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    @include font-size(18);
+    color: $de-blue;
+    margin-bottom: 5px;
+  }
+  &__author &__city{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    @include font-size(14);
+    line-height: 21px;
+    color: $de-blue;
+    margin-bottom: 0;
+  }
+}

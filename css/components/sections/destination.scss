@@ -1,0 +1,51 @@
+.destination{
+  padding-top: 123px;
+  padding-bottom: 186px;
+  &__list{
+    margin-top: 60px;
+    gap: 35px;
+  }
+  &__item{
+    position: relative;
+    border-radius: 24px;
+    height: 457px;
+    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px rgba(0, 0, 0, 0), 0px 8.148148536682129px 6.518518447875977px rgba(0, 0, 0, 0.01), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px rgba(0, 0, 0, 0.02), 0px 100px 80px rgba(0, 0, 0, 0.02);
+    &:last-child{
+      margin-left: 25px;
+      &:after{
+        content: '';
+        position: absolute;
+        width: 100px;
+        height: 255px;
+        bottom: 47px;
+        right: -62px;
+        background: url('#{$img-path}/dbg.svg') no-repeat;
+        z-index: -1;
+      }
+    }
+  }
+  &__info{
+    position: absolute;
+    bottom: -2px;
+    background: $white;
+    width: 100%;
+    padding: 27px 25px 42px 20px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    &--title{
+      font-family: 'Poppins', sans-serif;
+      @include font-size(18);
+      line-height: 1.25;
+      font-weight: 500;
+      color: $de-blue;
+      margin-bottom: 18px;
+    }
+    &--text{
+      padding-left: 34px;
+      background: url('#{$img-path}/navigation.svg') no-repeat left;
+      color: $de-blue;
+      font-family: 'Poppins', sans-serif;
+      @include font-size(16);
+    }
+  }
+}

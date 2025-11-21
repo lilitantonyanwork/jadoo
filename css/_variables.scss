@@ -1,0 +1,25 @@
+$white: #fff;
+$ch-green: #212832;
+$j-bean: #DF6951;
+$s-cadet:#181E4B;
+$de-blue: #5E6282;
+$orange: #F1A501;
+$d-sliver: #686D77;
+$y-blue: #14183E;
+$y-blue1: #1E1D4C;
+$blue-sapphire: #006380;
+$h-orange: #F15A2B;
+$v-black: #080809;
+$cultured: #F5F5F5;
+$r-silver: #84829A;
+$purple: #8A79DF;
+$platinum: #E5E5E5;
+$charcoal: #39425D;
+$lavender: #DFD7F9;
+
+$img-path: '../img';
+
+@mixin font-size($px-value) {
+  font-size: $px-value + px; // Fallback in px
+  font-size: ($px-value / 16) + rem; // Assuming 16px base font size for rem conversion
+}

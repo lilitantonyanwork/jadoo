@@ -1,0 +1,21 @@
+.menu{
+  margin-left: auto;
+  gap: 55px;
+  margin-right: 86px;
+  &__link{
+    font-family: "Google Sans Flex", sans-serif;
+    font-weight: 500;
+    @include font-size(17);
+    color: $ch-green;
+
+  }
+  &__item{
+    &:nth-child(2){
+      margin-right: 9px;
+    }
+    &:nth-child(7){
+      margin-right: 7px;
+    }
+  }
+
+}

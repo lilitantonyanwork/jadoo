@@ -1,0 +1,132 @@
+header{
+  padding-top: 47px;
+  position: relative;
+  padding-bottom: 117px;
+  &:before{
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('#{$img-path}/header-left.svg') no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  &:after{
+    content:'';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url('#{$img-path}/header-right.svg') no-repeat  right top;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .nav{
+    &__actions{
+      gap: 52px;
+      margin-right: 42px;
+    }
+    &__content{
+      padding-right: 25px;
+    }
+    &__lang{
+      font-family: "Google Sans Flex", sans-serif;
+      
+      &--selected{
+        padding-right: 16px;
+        color: $ch-green;
+        @include font-size(17);
+        font-weight: 500;
+        background: url('#{$img-path}/arrow-down.svg') no-repeat right center;
+      }
+    }
+  }
+  .banner{
+    padding-top: 18px;
+    &__content{
+      position: relative;
+      padding-left: 7px;
+    }
+    &__left{
+      padding-top: 112px;
+      max-width: 545px;
+      width: 100%;
+      position: relative;
+      z-index: 4;
+    }
+    &__right{
+      position: absolute;
+      right: 0;
+      &:before{
+        content: '';
+        width: 167px;
+        height: 157px;
+        position: absolute;
+        background: url('#{$img-path}/plane.svg');
+        top: 40px;
+        left: 134px;
+      }
+      &:after{
+        content: '';
+        width: 167px;
+        height: 157px;
+        position: absolute;
+        background: url('#{$img-path}/plane.svg');
+        top: 103px;
+        right: -20px;
+        z-index: 0;
+      }
+      img{
+        position: relative;
+        z-index: 1;
+      }
+    }
+    &__sub{
+      color: $j-bean;
+      text-transform: uppercase;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      white-space: nowrap;
+      @include font-size(20);
+      line-height: 30px;
+      margin-bottom: 24px;
+    }
+    &__title{
+      font-family: "Volkhov", serif;
+      font-weight: 700;
+      @include font-size(84);
+      line-height: 89px;
+      letter-spacing: -0.04em;
+      color: $s-cadet;
+      margin-bottom: 30px;
+      span{
+        position: relative;
+        &:after{
+          content: '';
+          width: 385px;
+          height: 12px;
+          background: url('#{$img-path}/text-border.svg') no-repeat bottom;
+          position: absolute;
+          left: -35px;
+          bottom: 18px;
+          z-index: -1;
+        }
+      }
+    }
+    &__text{
+      font-weight: 500;
+      @include font-size(16);
+      line-height: 30px;
+      color: $de-blue;
+      max-width: 477px;
+      width: 100%;
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 34px;
+    }
+    &__actions{
+      gap: 44px;
+    }
+  }
+}
