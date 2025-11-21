@@ -24,6 +24,9 @@ header{
   }
 
   .nav{
+    .container{
+      max-width: 1160px;
+    }
     &__actions{
       gap: 52px;
       margin-right: 42px;
