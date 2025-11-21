@@ -235,9 +235,6 @@ header .nav__actions {
   gap: 52px;
   margin-right: 42px;
 }
-header .nav__content {
-  padding-right: 25px;
-}
 header .nav__lang {
   font-family: "Google Sans Flex", sans-serif;
 }
