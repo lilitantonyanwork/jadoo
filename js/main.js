@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.querySelector('body');
     const lang_selected = document.querySelector('.nav__lang--selected');
     const lang = document.querySelector('.nav__lang--list');
+    const lang_item = document.querySelectorAll('.nav__lang--item');
 
     if (menu_btn) {
         menu_btn.addEventListener('click', function (e) {
@@ -33,6 +34,17 @@ document.addEventListener('DOMContentLoaded', () => {
             lang.classList.toggle('open');
             lang_selected.classList.toggle('open');
         });
+    }
+    if (lang_item) {
+        lang_item.forEach((button) =>{
+            button.addEventListener('click', function (e) {
+                const clickedText = this.textContent.trim();
+                lang_selected.textContent = clickedText;
+                lang.classList.toggle('open');
+                lang_selected.classList.toggle('open');
+            });
+        }
+        )
     }
 
 });

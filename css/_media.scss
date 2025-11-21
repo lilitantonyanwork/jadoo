@@ -12,6 +12,9 @@
   }
 
   .category{
+    .container{
+      margin-left:auto;
+    }
     &__item{
       width: calc(100% / 4 - 26px);
     }
@@ -154,6 +157,9 @@
     .nav{
       &__lang{
         &--selected{
+          @include font-size(15);
+        }
+        &--item{
           @include font-size(15);
         }
       }
@@ -468,6 +474,9 @@
       }
       &__lang{
         &--selected{
+          @include font-size(13);
+        }
+        &--item{
           @include font-size(13);
         }
       }

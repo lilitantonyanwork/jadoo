@@ -60,10 +60,15 @@ header{
         right: 0;
         top: 27px;
         transition: all .3s;
+        background: #fff2db;
+        z-index: 99;
         &.open{
           display: flex;
         }
 
+      }
+      &--item{
+        cursor: pointer;
       }
     }
   }

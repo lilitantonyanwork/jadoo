@@ -263,9 +263,14 @@ header .nav__lang--list {
   right: 0;
   top: 27px;
   transition: all 0.3s;
+  background: #fff2db;
+  z-index: 99;
 }
 header .nav__lang--list.open {
   display: flex;
+}
+header .nav__lang--item {
+  cursor: pointer;
 }
 header .banner {
   padding-top: 18px;
@@ -1107,6 +1112,9 @@ header .banner__actions {
   header .nav__content {
     padding-right: 0;
   }
+  .category .container {
+    margin-left: auto;
+  }
   .category__item {
     width: calc(25% - 26px);
   }
@@ -1219,6 +1227,10 @@ header .banner__actions {
     background-size: 100%;
   }
   header .nav__lang--selected {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+  header .nav__lang--item {
     font-size: 15px;
     font-size: 0.9375rem;
   }
@@ -1487,6 +1499,10 @@ header .banner__actions {
     width: 70px;
   }
   header .nav__lang--selected {
+    font-size: 13px;
+    font-size: 0.8125rem;
+  }
+  header .nav__lang--item {
     font-size: 13px;
     font-size: 0.8125rem;
   }
