@@ -10,10 +10,10 @@
     height: fit-content ;
     &:before{
       content: '';
-      width: 354px;
-      height: 367px;
-      top: -92px;
-      right: 71px;
+      width: 100%;
+      height: 100%;
+      top: -95px;
+      right: -10px;
       position: absolute;
       background: url('#{$img-path}/blue.svg') no-repeat top right;
       background-size: contain;
