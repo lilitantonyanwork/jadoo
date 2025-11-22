@@ -904,8 +904,11 @@ header .banner__actions {
   color: #84829A;
   margin-bottom: 21px;
 }
+.book__trip--text span:first-child {
+  margin-left: -4px;
+}
 .book__trip--text span {
-  margin-left: 13px;
+  margin-left: 6px;
 }
 .book__trip--actions {
   gap: 13px;
@@ -927,10 +930,13 @@ header .banner__actions {
   background: #fff;
   border-radius: 18px;
   padding: 18px 25px 22px 20px;
-  bottom: 52px;
-  right: -11px;
+  bottom: 51px;
+  right: 2px;
   gap: 11px;
   box-shadow: 0px 1.8518518209px 3.1481480598px rgba(0, 0, 0, 0), 0px 8.1481485367px 6.5185184479px rgba(0, 0, 0, 0.01), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 38.5185203552px 25.4814815521px rgba(0, 0, 0, 0.01), 0px 64.8148117065px 46.851852417px rgba(0, 0, 0, 0.02), 0px 100px 80px rgba(0, 0, 0, 0.02);
+}
+.book__ongoing--img img {
+  margin-top: 2px;
 }
 .book__ongoing--sub {
   font-family: Poppins, sans-serif;
@@ -940,7 +946,7 @@ header .banner__actions {
   line-height: 1.25;
   letter-spacing: -0.03em;
   color: #84829A;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 .book__ongoing--title {
   font-family: Poppins, sans-serif;
@@ -964,6 +970,7 @@ header .banner__actions {
 }
 .book__ongoing--status span {
   color: #8A79DF;
+  margin-left: -1px;
 }
 .book__ongoing--progress {
   width: 156px;
@@ -979,7 +986,7 @@ header .banner__actions {
   height: 5px;
   border-radius: 30px;
   position: absolute;
-  left: 0;
+  left: 1px;
   top: 0;
 }
 
