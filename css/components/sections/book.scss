@@ -2,12 +2,21 @@
   &__left{
     max-width: 511px;
     width: 100%;
+    margin-left: 69px;
+    .section__sub{
+      margin-bottom: 16px;
+    }
+    .section__title{
+      margin-left: -3px;
+    }
   }
   &__right{
     max-width: 485px;
     width: 100%;
     position: relative;
     height: fit-content ;
+    padding-top: 78px;
+    margin-right: 19px;
     &:before{
       content: '';
       width: 100%;
@@ -22,6 +31,7 @@
   }
   &__features{
     margin-top: 31px;
+    margin-left: -3px;
 
   }
   &__feature{
@@ -36,7 +46,7 @@
       border-radius: 13px;
       position: absolute;
       left: 0;
-      top: 4px;
+      top: 3px;
     }
     &:after{
       content: '';
@@ -46,7 +56,7 @@
       border-radius: 13px;
       position: absolute;
       left: 0;
-      top: 4px;
+      top: 3px;
     }
     &:nth-child(2){
       &:before{
@@ -92,7 +102,7 @@
     position: relative;
     box-shadow: 0px 1.8518518209457397px 3.1481480598449707px rgba(0, 0, 0, 0), 0px 8.148148536682129px 6.518518447875977px rgba(0, 0, 0, 0.01), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px rgba(0, 0, 0, 0.02), 0px 100px 80px rgba(0, 0, 0, 0.02);
     &--img{
-      margin-bottom: 26px;
+      margin-bottom: 21px;
     }
     &--title{
       font-family: Poppins, sans-serif;

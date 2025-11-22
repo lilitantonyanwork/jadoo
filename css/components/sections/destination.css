@@ -1,9 +1,9 @@
 /* Error: Undefined variable.
  *    ,
- * 32 |         background: url('#{$img-path}/dbg.svg') no-repeat;
+ * 33 |         background: url('#{$img-path}/dbg.svg') no-repeat;
  *    |                            ^^^^^^^^^
  *    '
- *   css/components/sections/destination.scss 32:28  root stylesheet */
+ *   css/components/sections/destination.scss 33:28  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 32 \2502          background: url('#{$img-path}/dbg.svg') no-repeat;\a    \2502                             ^^^^^^^^^\a    \2575 \a   css/components/sections/destination.scss 32:28  root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 33 \2502          background: url('#{$img-path}/dbg.svg') no-repeat;\a    \2502                             ^^^^^^^^^\a    \2575 \a   css/components/sections/destination.scss 33:28  root stylesheet";
 }
