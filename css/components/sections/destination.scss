@@ -1,9 +1,19 @@
 .destination{
   padding-top: 123px;
   padding-bottom: 186px;
+  .container{
+    margin-left: 82px;
+  }
+  .section__sub{
+    margin-bottom: 9px;
+  }
+  .section__title{
+    margin-left: 34px;
+  }
   &__list{
-    margin-top: 60px;
+    margin-top: 59px;
     gap: 35px;
+    margin-left: 23px;
   }
   &__item{
     position: relative;
@@ -17,16 +27,17 @@
         position: absolute;
         width: 100px;
         height: 255px;
-        bottom: 47px;
-        right: -62px;
+        bottom: 45px;
+        right: -66px;
         background: url('#{$img-path}/dbg.svg') no-repeat;
         z-index: -1;
       }
     }
   }
+
   &__info{
     position: absolute;
-    bottom: -2px;
+    bottom: -4px;
     background: $white;
     width: 100%;
     padding: 27px 25px 42px 20px;
@@ -46,6 +57,11 @@
       color: $de-blue;
       font-family: 'Poppins', sans-serif;
       @include font-size(16);
+    }
+  }
+  &__item &__info{
+    &:first-child{
+      padding: 27px 26px 42px 19px;
     }
   }
 }

@@ -715,9 +715,19 @@ header .banner__actions {
   padding-top: 123px;
   padding-bottom: 186px;
 }
+.destination .container {
+  margin-left: 82px;
+}
+.destination .section__sub {
+  margin-bottom: 9px;
+}
+.destination .section__title {
+  margin-left: 34px;
+}
 .destination__list {
-  margin-top: 60px;
+  margin-top: 59px;
   gap: 35px;
+  margin-left: 23px;
 }
 .destination__item {
   position: relative;
@@ -733,14 +743,14 @@ header .banner__actions {
   position: absolute;
   width: 100px;
   height: 255px;
-  bottom: 47px;
-  right: -62px;
+  bottom: 45px;
+  right: -66px;
   background: url("../img/dbg.svg") no-repeat;
   z-index: -1;
 }
 .destination__info {
   position: absolute;
-  bottom: -2px;
+  bottom: -4px;
   background: #fff;
   width: 100%;
   padding: 27px 25px 42px 20px;
@@ -763,6 +773,9 @@ header .banner__actions {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-size: 1rem;
+}
+.destination__item .destination__info:first-child {
+  padding: 27px 26px 42px 19px;
 }
 
 .book__left {
