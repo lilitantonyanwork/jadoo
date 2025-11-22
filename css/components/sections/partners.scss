@@ -1,29 +1,41 @@
 .partners{
-  padding-bottom: 136px;
+  padding-bottom: 158px;
   .container{
     max-width: 1156px;
   }
+  &__list{
+    gap: 12px;
+  }
   &__item{
     cursor: pointer;
-    height: 86px;
+    height: 89px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 4px;
     img{
       mix-blend-mode: luminosity;
 
     }
     &:first-child{
       padding-left: 44px;
-      height: 84px;
+
     }
     &:nth-child(2){
       padding-left: 25px;
       padding-top: 2px;
       padding-right: 25px;
       margin-right: 13px;
+    }
+    &:nth-child(4){
+      padding-left: 34px;
+      padding-right: 34px;
+      padding-bottom: 0;
+    }
+    &:nth-child(5){
+      padding-left: 53px;
     }
     &:hover{
       background: $white;
