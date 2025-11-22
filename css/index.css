@@ -600,10 +600,10 @@ header .banner__actions {
   right: 58px;
 }
 .category .container {
-  margin-left: 96px;
+  margin-left: 101px;
 }
 .category__list {
-  margin-top: 68px;
+  margin-top: 67px;
   gap: 35px;
   padding-bottom: 33px;
 }
@@ -630,21 +630,31 @@ header .banner__actions {
 }
 .category__item:first-child .category__icon {
   background: url("../img/c1.svg") no-repeat;
+  margin-left: 64px;
 }
 .category__item:nth-child(2) .category__icon {
   width: 166px;
   height: 153px;
   margin-bottom: 0;
   background: url("../img/c2.svg") no-repeat;
+  margin-left: 15px;
+}
+.category__item:nth-child(3) {
+  padding-top: 40px;
 }
 .category__item:nth-child(2) {
   padding-top: 0;
 }
 .category__item:nth-child(3) .category__icon {
   background: url("../img/c3.svg") no-repeat;
+  margin-left: 77px;
 }
 .category__item:nth-child(4) .category__icon {
   background: url("../img/c4.svg") no-repeat;
+  margin-left: 57px;
+}
+.category__item:nth-child(4) {
+  padding-top: 54px;
 }
 .category__icon {
   width: 92px;
