@@ -1,8 +1,8 @@
 .testimonials{
   padding-top: 152px;
-  padding-bottom: 160px;
+  padding-bottom: 135px;
   .section__title{
-    max-width: 409px;
+    max-width: 418px;
   }
   .container{
     margin-left: 183px;
@@ -40,6 +40,9 @@
   }
 }
 .testimonial{
+  &.swiper-slide-next{
+    margin-bottom: 32px;
+  }
   &__img{
     position: absolute;
     width: 68px;
@@ -58,7 +61,6 @@
   }
   &__author &__name{
     font-family: Poppins, sans-serif;
-    text-transform: capitalize;
     font-weight: 600;
     @include font-size(18);
     color: $de-blue;

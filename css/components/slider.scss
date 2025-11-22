@@ -16,7 +16,7 @@
     }
     &-next{
 
-      top: -160px;
+      top: -156px;
       left: 50px;
       z-index: -1;
       border: 2px solid #f7f7f7;
@@ -34,7 +34,7 @@
   &-vertical &-button-prev{
     left: auto;
     right: 31px;
-    top: calc(100%/2 - 38px);
+    top: calc(100%/2 - 40px);
     width: 16px;
     height: 10px;
     background: url('#{$img-path}/slider.svg') no-repeat;

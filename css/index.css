@@ -512,7 +512,7 @@ header .banner__actions {
   height: 245px !important;
 }
 .swiper-slide-next {
-  top: -160px;
+  top: -156px;
   left: 50px;
   z-index: -1;
   border: 2px solid #f7f7f7;
@@ -529,7 +529,7 @@ header .banner__actions {
 .swiper-vertical .swiper-button-prev {
   left: auto;
   right: 31px;
-  top: calc(50% - 38px);
+  top: calc(50% - 40px);
   width: 16px;
   height: 10px;
   background: url("../img/slider.svg") no-repeat;
@@ -995,6 +995,9 @@ header .banner__actions {
 .partners {
   padding-bottom: 145px;
 }
+.partners .container {
+  max-width: 1156px;
+}
 .partners__item {
   cursor: pointer;
   height: 86px;
@@ -1007,6 +1010,16 @@ header .banner__actions {
 .partners__item img {
   mix-blend-mode: luminosity;
 }
+.partners__item:first-child {
+  padding-left: 44px;
+  height: 84px;
+}
+.partners__item:nth-child(2) {
+  padding-left: 25px;
+  padding-top: 2px;
+  padding-right: 25px;
+  margin-right: 13px;
+}
 .partners__item:hover {
   background: #fff;
   border-radius: 10px;
@@ -1018,10 +1031,10 @@ header .banner__actions {
 
 .testimonials {
   padding-top: 152px;
-  padding-bottom: 160px;
+  padding-bottom: 135px;
 }
 .testimonials .section__title {
-  max-width: 409px;
+  max-width: 418px;
 }
 .testimonials .container {
   margin-left: 183px;
@@ -1056,6 +1069,9 @@ header .banner__actions {
   padding-bottom: 77px;
 }
 
+.testimonial.swiper-slide-next {
+  margin-bottom: 32px;
+}
 .testimonial__img {
   position: absolute;
   width: 68px;
@@ -1075,7 +1091,6 @@ header .banner__actions {
 }
 .testimonial__author .testimonial__name {
   font-family: Poppins, sans-serif;
-  text-transform: capitalize;
   font-weight: 600;
   font-size: 18px;
   font-size: 1.125rem;
