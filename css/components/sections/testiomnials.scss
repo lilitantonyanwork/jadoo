@@ -1,17 +1,35 @@
 .testimonials{
-  padding-top: 214px;
+  padding-top: 152px;
   padding-bottom: 160px;
   .section__title{
     max-width: 409px;
   }
+  .container{
+    margin-left: 183px;
+  }
+  &__content{
+    gap: 80px;
+  }
   &__left{
     position: relative;
+    padding-top: 10px;
+    .section__sub{
+      text-transform: uppercase;
+      padding-left: 3px;
+      margin-bottom: 8px;
+    }
+    .section__title{
+      padding-left: 4px;
+
+    }
+
     .swiper-pagination{
-      left: 0;
+      left: 3px;
     }
   }
   &__right{
     height: 356px;
+    width: calc(100% - 498px);
   }
   &__slider{
     height: 100%;
@@ -40,6 +58,7 @@
   }
   &__author &__name{
     font-family: Poppins, sans-serif;
+    text-transform: capitalize;
     font-weight: 600;
     @include font-size(18);
     color: $de-blue;

@@ -5,11 +5,10 @@
     background: $white;
     border-radius: 10px;
     position: relative;
-    padding: 28px 68px 34px 34px;
+    padding: 28px 85px 34px 34px;
     box-shadow: 0px 1.8518518209457397px 3.1481480598449707px rgba(0, 0, 0, 0), 0px 8.148148536682129px 6.518518447875977px rgba(0, 0, 0, 0.01), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 38.51852035522461px 25.481481552124023px rgba(0, 0, 0, 0.01), 0px 64.81481170654297px 46.85185241699219px rgba(0, 0, 0, 0.02), 0px 100px 80px rgba(0, 0, 0, 0.02);
     min-height: 245px;
-
-    max-width: 541px;
+    max-width: 504px;
     width: 100%;
     height: 245px!important;
     &-active{
@@ -34,8 +33,8 @@
   }
   &-vertical &-button-prev{
     left: auto;
-    right: 0;
-    top: calc(100%/2 - 28px);
+    right: 31px;
+    top: calc(100%/2 - 38px);
     width: 16px;
     height: 10px;
     background: url('#{$img-path}/slider.svg') no-repeat;
@@ -46,10 +45,10 @@
   }
   &-vertical &-button-next{
     left: auto;
-    right: 0;
+    right: 31px;
     width: 16px;
     height: 10px;
-    bottom: calc(100%/2 - 28px);
+    bottom: calc(100%/2 - 36px);
     background: url('#{$img-path}/slider.svg') no-repeat;
     svg{
       display: none;
@@ -61,7 +60,7 @@
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
-    margin-top: 82px;
+    margin-top: 84px;
     gap: 25px;
     &-bullet{
       width: 12px;

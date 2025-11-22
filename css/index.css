@@ -504,10 +504,10 @@ header .banner__actions {
   background: #fff;
   border-radius: 10px;
   position: relative;
-  padding: 28px 68px 34px 34px;
+  padding: 28px 85px 34px 34px;
   box-shadow: 0px 1.8518518209px 3.1481480598px rgba(0, 0, 0, 0), 0px 8.1481485367px 6.5185184479px rgba(0, 0, 0, 0.01), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 38.5185203552px 25.4814815521px rgba(0, 0, 0, 0.01), 0px 64.8148117065px 46.851852417px rgba(0, 0, 0, 0.02), 0px 100px 80px rgba(0, 0, 0, 0.02);
   min-height: 245px;
-  max-width: 541px;
+  max-width: 504px;
   width: 100%;
   height: 245px !important;
 }
@@ -528,8 +528,8 @@ header .banner__actions {
 }
 .swiper-vertical .swiper-button-prev {
   left: auto;
-  right: 0;
-  top: calc(50% - 28px);
+  right: 31px;
+  top: calc(50% - 38px);
   width: 16px;
   height: 10px;
   background: url("../img/slider.svg") no-repeat;
@@ -540,10 +540,10 @@ header .banner__actions {
 }
 .swiper-vertical .swiper-button-next {
   left: auto;
-  right: 0;
+  right: 31px;
   width: 16px;
   height: 10px;
-  bottom: calc(50% - 28px);
+  bottom: calc(50% - 36px);
   background: url("../img/slider.svg") no-repeat;
 }
 .swiper-vertical .swiper-button-next svg {
@@ -554,7 +554,7 @@ header .banner__actions {
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  margin-top: 82px;
+  margin-top: 84px;
   gap: 25px;
 }
 .swiper-pagination-bullet {
@@ -911,8 +911,9 @@ header .banner__actions {
   margin-left: 6px;
 }
 .book__trip--actions {
-  gap: 13px;
+  gap: 17px;
   margin-bottom: 29px;
+  padding-left: 3px;
 }
 .book__trip--count {
   padding-left: 31px;
@@ -924,6 +925,7 @@ header .banner__actions {
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #84829A;
+  padding-top: 1px;
 }
 .book__ongoing {
   position: absolute;
@@ -1015,20 +1017,36 @@ header .banner__actions {
 }
 
 .testimonials {
-  padding-top: 214px;
+  padding-top: 152px;
   padding-bottom: 160px;
 }
 .testimonials .section__title {
   max-width: 409px;
 }
+.testimonials .container {
+  margin-left: 183px;
+}
+.testimonials__content {
+  gap: 80px;
+}
 .testimonials__left {
   position: relative;
+  padding-top: 10px;
+}
+.testimonials__left .section__sub {
+  text-transform: uppercase;
+  padding-left: 3px;
+  margin-bottom: 8px;
+}
+.testimonials__left .section__title {
+  padding-left: 4px;
 }
 .testimonials__left .swiper-pagination {
-  left: 0;
+  left: 3px;
 }
 .testimonials__right {
   height: 356px;
+  width: calc(100% - 498px);
 }
 .testimonials__slider {
   height: 100%;
@@ -1057,6 +1075,7 @@ header .banner__actions {
 }
 .testimonial__author .testimonial__name {
   font-family: Poppins, sans-serif;
+  text-transform: capitalize;
   font-weight: 600;
   font-size: 18px;
   font-size: 1.125rem;

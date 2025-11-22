@@ -129,8 +129,9 @@
       }
     }
     &--actions{
-      gap: 13px;
+      gap: 17px;
       margin-bottom: 29px;
+      padding-left: 3px;
     }
     &--count{
       padding-left: 31px;
@@ -141,7 +142,7 @@
       line-height: 1.25;
       letter-spacing: -0.02em;
       color: $r-silver;
-
+      padding-top: 1px;
     }
   }
   &__ongoing{
