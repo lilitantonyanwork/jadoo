@@ -7,7 +7,7 @@
     height: 166px;
     background: url('#{$img-path}/plus.svg') no-repeat;
     position: absolute;
-    bottom: -65px;
+    bottom: -70px;
     right: 36px;
 
   }
@@ -21,7 +21,7 @@
       border-radius: 100%;
       background: linear-gradient(216.12deg, #747def 2.81%, #5e3be1 100%);
       position: absolute;
-      right: -20px;
+      right: -5px;
       top: -13px;
     }
     &:before{
@@ -31,7 +31,7 @@
       border-radius: 100%;
       background:url('#{$img-path}/send1.svg') no-repeat center center;
       position: absolute;
-      right: -20px;
+      right: -7px;
       top: -13px;
       z-index: 1;
     }
@@ -74,13 +74,15 @@
     @include font-size(33);
     line-height: 54px;
     color: $de-blue;
+    letter-spacing: 0.4px;
+    padding-left: 0;
   }
   &__form{
-    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 24px;
+    max-width: 666px;
+    margin: 0 auto;
     &--input{
       background: $white;
       height: 68px;
@@ -94,7 +96,7 @@
         height: 18px;
         position: absolute;
         background: url('#{$img-path}/email.svg') no-repeat ;
-        top: 27px;
+        top: 25px;
         left: 31px;
       }
       input{
